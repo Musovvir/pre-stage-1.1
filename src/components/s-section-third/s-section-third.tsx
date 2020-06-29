@@ -54,8 +54,9 @@ export class SSectionThird implements ComponentInterface {
     const getSectionThird = this.forSectionThird.map((item) => {
       return (
         <div class="row">
-          <div class="col-md-8 animate__animated animate__fadeInLeft wow fadeInLeft">
+          <div class="col-md-8">
             <div
+              data-aos="fade-up"
               class="image"
               style={{ backgroundImage: "url(" + item.url + ")" }}
               onClick={() => this.clickSectionThirdImage.emit("Image")}

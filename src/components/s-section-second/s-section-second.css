@@ -1,3 +1,26 @@
+* { text-align:center; }
+
+.wrapper
+{
+  max-width:30em;
+  margin:2em auto;
+}
+
+.scrollme
+{
+  padding:2em;
+  border:1em solid #e8e8e8;
+  perspective:600px;
+}
+
+.animateme
+{
+  width:80%;
+  padding:10%;
+  background:#e8e8e8;
+  transform-origin:center center;
+}
+
 .my-block {
   margin: 40px 0 60px 0;
 }
