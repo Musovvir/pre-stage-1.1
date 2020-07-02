@@ -7,7 +7,7 @@ import {
   Prop,
 } from "@stencil/core";
 import { STimelineItems } from "./interface/common.interface";
-import {StorageViskhanSbank} from "../../../../../utils/utils";
+import { StorageViskhanSbank } from "../../../../../utils/utils";
 
 @Component({
   tag: "cnt-flexy-view-viskhan-sbank-timeline",
@@ -53,7 +53,10 @@ export class CntFlexyViewViskhanSbankTimeline implements ComponentInterface {
           <div class="col-md-8" data-aos="fade-right">
             <div
               class="image"
-              style={{ backgroundImage: "url(" + StorageViskhanSbank.prefix + item.url + ")" }}
+              style={{
+                backgroundImage:
+                  "url(" + StorageViskhanSbank.prefix + item.url + ")",
+              }}
               onClick={() => this.clickTimelineImage.emit("Image")}
             />
           </div>
@@ -74,8 +77,6 @@ export class CntFlexyViewViskhanSbankTimeline implements ComponentInterface {
         </div>
       );
     });
-    return <div class="container">
-      {getTimeline}
-    </div>;
+    return <div class="container">{getTimeline}</div>;
   }
 }

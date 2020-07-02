@@ -1,12 +1,13 @@
-import {Component, ComponentInterface, h, Prop} from '@stencil/core';
-import {StorageViskhanSbank} from "../../utils/utils";
+import { Component, ComponentInterface, h, Prop } from "@stencil/core";
+import { StorageViskhanSbank } from "../../utils/utils";
 
 @Component({
-  tag: 'cnt-flexy-view-viskhan-sbank-timeline-1_01',
-  styleUrl: 'cnt-flexy-view-viskhan-sbank-timeline-1_01.css',
+  tag: "cnt-flexy-view-viskhan-sbank-timeline-1_01",
+  styleUrl: "cnt-flexy-view-viskhan-sbank-timeline-1_01.css",
   shadow: false,
 })
-export class CntFlexyViewViskhanSbankTimeline1_01 implements ComponentInterface {
+export class CntFlexyViewViskhanSbankTimeline1_01
+  implements ComponentInterface {
   /**
    * Данные компонента Timeline
    */
@@ -34,5 +35,4 @@ export class CntFlexyViewViskhanSbankTimeline1_01 implements ComponentInterface 
       />
     );
   }
-
 }
