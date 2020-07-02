@@ -5,215 +5,409 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { SCollaborationItems, } from "./components/s-collaboration/interface/common.interface";
-import { SFooterItems, } from "./components/s-footer/interface/common.interface";
-import { SHeaderItems, } from "./components/s-header/interface/common.interface";
-import { SReviewItems, } from "./components/s-review/interface/common.interface";
-import { SSectionFirstItems, } from "./components/s-section-first/interface/common.interface";
-import { SSectionFourthItems, } from "./components/s-section-fourth/interface/common.interface";
-import { SSectionSecondItems, } from "./components/s-section-second/interface/common.interface";
-import { SSectionThirdItems, } from "./components/s-section-third/interface/common.interface";
-import { SStaffingItems, } from "./components/s-staffing/interface/common.interface";
-import { SSummaryItems, } from "./components/s-summary/interface/common.interface";
-import { STimelineItems, } from "./components/s-timeline/interface/common.interface";
+import { SSectionFourthItems, } from "./components/cnt-flexy-view-viskhan-sbank-about-1_01/res/view/cnt-flexy-view-viskhan-sbank-about/interface/common.interface";
+import { SCollaborationItems, } from "./components/cnt-flexy-view-viskhan-sbank-collaboration-1_01/res/view/cnt-flexy-view-viskhan-sbank-collaboration/interface/common.interface";
+import { SSectionSecondItems, } from "./components/cnt-flexy-view-viskhan-sbank-dowork-1_01/res/view/cnt-flexy-view-viskhan-sbank-dowork/interface/common.interface";
+import { SSectionFirstItems, } from "./components/cnt-flexy-view-viskhan-sbank-estimates-1_01/res/view/cnt-flexy-view-viskhan-sbank-estimates/interface/common.interface";
+import { SFooterItems, } from "./components/cnt-flexy-view-viskhan-sbank-footer-1_01/res/view/cnt-flexy-view-viskhan-sbank-footer/interface/common.interface";
+import { SHeaderItems, } from "./components/cnt-flexy-view-viskhan-sbank-header-1_01/res/view/cnt-flexy-view-viskhan-sbank-header/interface/common.interface";
+import { SReviewItems, } from "./components/cnt-flexy-view-viskhan-sbank-review-1_01/res/view/cnt-flexy-view-viskhan-sbank-review/interface/common.interface";
+import { SStaffingItems, } from "./components/cnt-flexy-view-viskhan-sbank-staffing-1_01/res/view/cnt-flexy-view-viskhan-sbank-staffing/interface/common.interface";
+import { SSectionThirdItems, } from "./components/cnt-flexy-view-viskhan-sbank-structure-1_01/res/view/cnt-flexy-view-viskhan-sbank-structure/interface/common.interface";
+import { SSummaryItems, } from "./components/cnt-flexy-view-viskhan-sbank-summary-1_01/res/view/cnt-flexy-view-viskhan-sbank-summary/interface/common.interface";
+import { STimelineItems, } from "./components/cnt-flexy-view-viskhan-sbank-timeline-1_01/res/view/cnt-flexy-view-viskhan-sbank-timeline/interface/common.interface";
 export namespace Components {
-    interface MyComponent {
-    }
-    interface SCollaboration {
-        "forCollaboration": any;
+    interface CntFlexyViewViskhanSbankAbout {
         /**
-          * Интерфейс для Collaboration
+          * Данные компонента Collaboration
          */
-        "sectionThird": SCollaborationItems[];
-    }
-    interface SFooter {
-        /**
-          * Интерфейс для Footer
-         */
-        "footer": SFooterItems[];
-        /**
-          * Массив для Footer
-         */
-        "forFooter": any;
-    }
-    interface SHeader {
-        /**
-          * Массив для Header
-         */
-        "forHeader": any;
-        /**
-          * Интерфейс для Header
-         */
-        "header": SHeaderItems[];
-    }
-    interface SReview {
-        /**
-          * Интерфейс для SReviewItems
-         */
-        "Review": SReviewItems[];
-        /**
-          * Массив для Review
-         */
-        "forReview": any;
-    }
-    interface SSectionFirst {
-        /**
-          * Массив для SectionFirst
-         */
-        "forSectionFirst": any;
-        /**
-          * Интерфейс для SectionFirst
-         */
-        "sectionFirst": SSectionFirstItems[];
-    }
-    interface SSectionFourth {
-        /**
-          * Массив для SectionFourth
-         */
-        "forSectionFourth": any;
+        "payload": any;
         /**
           * Интерфейс для SectionFourth
          */
         "sectionFourth": SSectionFourthItems[];
     }
-    interface SSectionSecond {
+    interface CntFlexyViewViskhanSbankAbout1_01 {
+        "pathToAssets": string;
         /**
-          * Массив для SectionSecond
+          * Данные компонента About
          */
-        "forSectionSecond": any;
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankCollaboration {
         /**
-          * Интерфейс для SectionSecond
+          * Данные компонента collaboration
+         */
+        "payload": any;
+        /**
+          * Интерфейс для Collaboration
+         */
+        "sectionThird": SCollaborationItems[];
+    }
+    interface CntFlexyViewViskhanSbankCollaboration1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента Collaboration
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankDowork {
+        "pathToAssets": string;
+        /**
+          * Массив для Dowork
+         */
+        "payload": any;
+        /**
+          * Интерфейс для Dowork
          */
         "sectionSecond": SSectionSecondItems[];
     }
-    interface SSectionThird {
+    interface CntFlexyViewViskhanSbankDowork1_01 {
+        "pathToAssets": string;
         /**
-          * Клик по SectionThird
+          * Данные компонента collaboration
          */
-        "forSectionThird": any;
-        /**
-          * Интерфейс для SectionThird
-         */
-        "sectionThird": SSectionThirdItems[];
+        "payload": any;
     }
-    interface SStaffing {
+    interface CntFlexyViewViskhanSbankEstimates {
+        /**
+          * Массив для Estimates
+         */
+        "payload": any;
+        /**
+          * Интерфейс для Estimates
+         */
+        "sectionFirst": SSectionFirstItems[];
+    }
+    interface CntFlexyViewViskhanSbankEstimates1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента estimates
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankFooter {
+        /**
+          * Массив для Footer
+         */
+        "categories": any;
+        /**
+          * Интерфейс для Footer
+         */
+        "footer": SFooterItems[];
+    }
+    interface CntFlexyViewViskhanSbankFooter1_01 {
+        /**
+          * Данные компонента footer
+         */
+        "categories": any;
+        "pathToAssets": string;
+    }
+    interface CntFlexyViewViskhanSbankHeader {
+        /**
+          * Массив для Header
+         */
+        "categories": any;
+        /**
+          * Интерфейс для Header
+         */
+        "header": SHeaderItems[];
+    }
+    interface CntFlexyViewViskhanSbankHeader1_01 {
+        /**
+          * Данные компонента header
+         */
+        "categories": any;
+        "pathToAssets": string;
+    }
+    interface CntFlexyViewViskhanSbankReview {
+        /**
+          * Интерфейс для SReviewItems
+         */
+        "Review": SReviewItems[];
+        /**
+          * Данные компонента Review
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankReview1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента Review
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankStaffing {
         /**
           * Интерфейс для Staffing
          */
         "Staffing": SStaffingItems[];
-        "forStaffing": any;
+        /**
+          * Данные компонента Staffing
+         */
+        "payload": any;
     }
-    interface SSummary {
+    interface CntFlexyViewViskhanSbankStaffing1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента Staffing
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankStructure {
+        /**
+          * Массив для Structure
+         */
+        "payload": any;
+        /**
+          * Интерфейс для Structure
+         */
+        "sectionThird": SSectionThirdItems[];
+    }
+    interface CntFlexyViewViskhanSbankStructure1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента collaboration
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankSummary {
         /**
           * Интерфейс для Summary
          */
         "Summary": SSummaryItems[];
-        "forSummary": any;
+        /**
+          * Данные компонента Summary
+         */
+        "payload": any;
     }
-    interface STimeline {
+    interface CntFlexyViewViskhanSbankSummary1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента Summary
+         */
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankTimeline {
         /**
           * Интерфейс для Timeline
          */
         "Timeline": STimelineItems[];
         /**
-          * Клик по Timeline
+          * Данные компонента Timeline
          */
-        "forTimeline": any;
+        "payload": any;
+    }
+    interface CntFlexyViewViskhanSbankTimeline1_01 {
+        "pathToAssets": string;
+        /**
+          * Данные компонента Timeline
+         */
+        "payload": any;
+    }
+    interface MyComponent {
     }
 }
 declare global {
+    interface HTMLCntFlexyViewViskhanSbankAboutElement extends Components.CntFlexyViewViskhanSbankAbout, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankAboutElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankAboutElement;
+        new (): HTMLCntFlexyViewViskhanSbankAboutElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankAbout1_01Element extends Components.CntFlexyViewViskhanSbankAbout1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankAbout1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankAbout1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankAbout1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankCollaborationElement extends Components.CntFlexyViewViskhanSbankCollaboration, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankCollaborationElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankCollaborationElement;
+        new (): HTMLCntFlexyViewViskhanSbankCollaborationElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankCollaboration1_01Element extends Components.CntFlexyViewViskhanSbankCollaboration1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankCollaboration1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankCollaboration1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankCollaboration1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankDoworkElement extends Components.CntFlexyViewViskhanSbankDowork, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankDoworkElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankDoworkElement;
+        new (): HTMLCntFlexyViewViskhanSbankDoworkElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankDowork1_01Element extends Components.CntFlexyViewViskhanSbankDowork1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankDowork1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankDowork1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankDowork1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankEstimatesElement extends Components.CntFlexyViewViskhanSbankEstimates, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankEstimatesElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankEstimatesElement;
+        new (): HTMLCntFlexyViewViskhanSbankEstimatesElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankEstimates1_01Element extends Components.CntFlexyViewViskhanSbankEstimates1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankEstimates1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankEstimates1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankEstimates1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankFooterElement extends Components.CntFlexyViewViskhanSbankFooter, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankFooterElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankFooterElement;
+        new (): HTMLCntFlexyViewViskhanSbankFooterElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankFooter1_01Element extends Components.CntFlexyViewViskhanSbankFooter1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankFooter1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankFooter1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankFooter1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankHeaderElement extends Components.CntFlexyViewViskhanSbankHeader, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankHeaderElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankHeaderElement;
+        new (): HTMLCntFlexyViewViskhanSbankHeaderElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankHeader1_01Element extends Components.CntFlexyViewViskhanSbankHeader1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankHeader1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankHeader1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankHeader1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankReviewElement extends Components.CntFlexyViewViskhanSbankReview, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankReviewElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankReviewElement;
+        new (): HTMLCntFlexyViewViskhanSbankReviewElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankReview1_01Element extends Components.CntFlexyViewViskhanSbankReview1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankReview1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankReview1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankReview1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankStaffingElement extends Components.CntFlexyViewViskhanSbankStaffing, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankStaffingElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankStaffingElement;
+        new (): HTMLCntFlexyViewViskhanSbankStaffingElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankStaffing1_01Element extends Components.CntFlexyViewViskhanSbankStaffing1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankStaffing1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankStaffing1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankStaffing1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankStructureElement extends Components.CntFlexyViewViskhanSbankStructure, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankStructureElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankStructureElement;
+        new (): HTMLCntFlexyViewViskhanSbankStructureElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankStructure1_01Element extends Components.CntFlexyViewViskhanSbankStructure1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankStructure1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankStructure1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankStructure1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankSummaryElement extends Components.CntFlexyViewViskhanSbankSummary, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankSummaryElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankSummaryElement;
+        new (): HTMLCntFlexyViewViskhanSbankSummaryElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankSummary1_01Element extends Components.CntFlexyViewViskhanSbankSummary1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankSummary1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankSummary1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankSummary1_01Element;
+    };
+    interface HTMLCntFlexyViewViskhanSbankTimelineElement extends Components.CntFlexyViewViskhanSbankTimeline, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankTimelineElement: {
+        prototype: HTMLCntFlexyViewViskhanSbankTimelineElement;
+        new (): HTMLCntFlexyViewViskhanSbankTimelineElement;
+    };
+    interface HTMLCntFlexyViewViskhanSbankTimeline1_01Element extends Components.CntFlexyViewViskhanSbankTimeline1_01, HTMLStencilElement {
+    }
+    var HTMLCntFlexyViewViskhanSbankTimeline1_01Element: {
+        prototype: HTMLCntFlexyViewViskhanSbankTimeline1_01Element;
+        new (): HTMLCntFlexyViewViskhanSbankTimeline1_01Element;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
-    interface HTMLSCollaborationElement extends Components.SCollaboration, HTMLStencilElement {
-    }
-    var HTMLSCollaborationElement: {
-        prototype: HTMLSCollaborationElement;
-        new (): HTMLSCollaborationElement;
-    };
-    interface HTMLSFooterElement extends Components.SFooter, HTMLStencilElement {
-    }
-    var HTMLSFooterElement: {
-        prototype: HTMLSFooterElement;
-        new (): HTMLSFooterElement;
-    };
-    interface HTMLSHeaderElement extends Components.SHeader, HTMLStencilElement {
-    }
-    var HTMLSHeaderElement: {
-        prototype: HTMLSHeaderElement;
-        new (): HTMLSHeaderElement;
-    };
-    interface HTMLSReviewElement extends Components.SReview, HTMLStencilElement {
-    }
-    var HTMLSReviewElement: {
-        prototype: HTMLSReviewElement;
-        new (): HTMLSReviewElement;
-    };
-    interface HTMLSSectionFirstElement extends Components.SSectionFirst, HTMLStencilElement {
-    }
-    var HTMLSSectionFirstElement: {
-        prototype: HTMLSSectionFirstElement;
-        new (): HTMLSSectionFirstElement;
-    };
-    interface HTMLSSectionFourthElement extends Components.SSectionFourth, HTMLStencilElement {
-    }
-    var HTMLSSectionFourthElement: {
-        prototype: HTMLSSectionFourthElement;
-        new (): HTMLSSectionFourthElement;
-    };
-    interface HTMLSSectionSecondElement extends Components.SSectionSecond, HTMLStencilElement {
-    }
-    var HTMLSSectionSecondElement: {
-        prototype: HTMLSSectionSecondElement;
-        new (): HTMLSSectionSecondElement;
-    };
-    interface HTMLSSectionThirdElement extends Components.SSectionThird, HTMLStencilElement {
-    }
-    var HTMLSSectionThirdElement: {
-        prototype: HTMLSSectionThirdElement;
-        new (): HTMLSSectionThirdElement;
-    };
-    interface HTMLSStaffingElement extends Components.SStaffing, HTMLStencilElement {
-    }
-    var HTMLSStaffingElement: {
-        prototype: HTMLSStaffingElement;
-        new (): HTMLSStaffingElement;
-    };
-    interface HTMLSSummaryElement extends Components.SSummary, HTMLStencilElement {
-    }
-    var HTMLSSummaryElement: {
-        prototype: HTMLSSummaryElement;
-        new (): HTMLSSummaryElement;
-    };
-    interface HTMLSTimelineElement extends Components.STimeline, HTMLStencilElement {
-    }
-    var HTMLSTimelineElement: {
-        prototype: HTMLSTimelineElement;
-        new (): HTMLSTimelineElement;
-    };
     interface HTMLElementTagNameMap {
+        "cnt-flexy-view-viskhan-sbank-about": HTMLCntFlexyViewViskhanSbankAboutElement;
+        "cnt-flexy-view-viskhan-sbank-about-1_01": HTMLCntFlexyViewViskhanSbankAbout1_01Element;
+        "cnt-flexy-view-viskhan-sbank-collaboration": HTMLCntFlexyViewViskhanSbankCollaborationElement;
+        "cnt-flexy-view-viskhan-sbank-collaboration-1_01": HTMLCntFlexyViewViskhanSbankCollaboration1_01Element;
+        "cnt-flexy-view-viskhan-sbank-dowork": HTMLCntFlexyViewViskhanSbankDoworkElement;
+        "cnt-flexy-view-viskhan-sbank-dowork-1_01": HTMLCntFlexyViewViskhanSbankDowork1_01Element;
+        "cnt-flexy-view-viskhan-sbank-estimates": HTMLCntFlexyViewViskhanSbankEstimatesElement;
+        "cnt-flexy-view-viskhan-sbank-estimates-1_01": HTMLCntFlexyViewViskhanSbankEstimates1_01Element;
+        "cnt-flexy-view-viskhan-sbank-footer": HTMLCntFlexyViewViskhanSbankFooterElement;
+        "cnt-flexy-view-viskhan-sbank-footer-1_01": HTMLCntFlexyViewViskhanSbankFooter1_01Element;
+        "cnt-flexy-view-viskhan-sbank-header": HTMLCntFlexyViewViskhanSbankHeaderElement;
+        "cnt-flexy-view-viskhan-sbank-header-1_01": HTMLCntFlexyViewViskhanSbankHeader1_01Element;
+        "cnt-flexy-view-viskhan-sbank-review": HTMLCntFlexyViewViskhanSbankReviewElement;
+        "cnt-flexy-view-viskhan-sbank-review-1_01": HTMLCntFlexyViewViskhanSbankReview1_01Element;
+        "cnt-flexy-view-viskhan-sbank-staffing": HTMLCntFlexyViewViskhanSbankStaffingElement;
+        "cnt-flexy-view-viskhan-sbank-staffing-1_01": HTMLCntFlexyViewViskhanSbankStaffing1_01Element;
+        "cnt-flexy-view-viskhan-sbank-structure": HTMLCntFlexyViewViskhanSbankStructureElement;
+        "cnt-flexy-view-viskhan-sbank-structure-1_01": HTMLCntFlexyViewViskhanSbankStructure1_01Element;
+        "cnt-flexy-view-viskhan-sbank-summary": HTMLCntFlexyViewViskhanSbankSummaryElement;
+        "cnt-flexy-view-viskhan-sbank-summary-1_01": HTMLCntFlexyViewViskhanSbankSummary1_01Element;
+        "cnt-flexy-view-viskhan-sbank-timeline": HTMLCntFlexyViewViskhanSbankTimelineElement;
+        "cnt-flexy-view-viskhan-sbank-timeline-1_01": HTMLCntFlexyViewViskhanSbankTimeline1_01Element;
         "my-component": HTMLMyComponentElement;
-        "s-collaboration": HTMLSCollaborationElement;
-        "s-footer": HTMLSFooterElement;
-        "s-header": HTMLSHeaderElement;
-        "s-review": HTMLSReviewElement;
-        "s-section-first": HTMLSSectionFirstElement;
-        "s-section-fourth": HTMLSSectionFourthElement;
-        "s-section-second": HTMLSSectionSecondElement;
-        "s-section-third": HTMLSSectionThirdElement;
-        "s-staffing": HTMLSStaffingElement;
-        "s-summary": HTMLSSummaryElement;
-        "s-timeline": HTMLSTimelineElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
+    interface CntFlexyViewViskhanSbankAbout {
+        /**
+          * Клик по SectionFourthButton
+         */
+        "onClickSectionFourthButton"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по SectionFourthImage
+         */
+        "onClickSectionFourthImage"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по SectionFourthText
+         */
+        "onClickSectionFourthText"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по SectionFourthTitle
+         */
+        "onClickSectionFourthTitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Данные компонента Collaboration
+         */
+        "payload"?: any;
+        /**
+          * Интерфейс для SectionFourth
+         */
+        "sectionFourth"?: SSectionFourthItems[];
     }
-    interface SCollaboration {
-        "forCollaboration"?: any;
+    interface CntFlexyViewViskhanSbankAbout1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента About
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankCollaboration {
         /**
           * Клик по Image
          */
@@ -227,19 +421,93 @@ declare namespace LocalJSX {
          */
         "onClickCollaborationSubtitle"?: (event: CustomEvent<any>) => void;
         /**
+          * Данные компонента collaboration
+         */
+        "payload"?: any;
+        /**
           * Интерфейс для Collaboration
          */
         "sectionThird"?: SCollaborationItems[];
     }
-    interface SFooter {
+    interface CntFlexyViewViskhanSbankCollaboration1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента Collaboration
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankDowork {
+        /**
+          * Клик по MyBlock
+         */
+        "onClickDoworkMyBlock"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Subtitle
+         */
+        "onClickDoworkSubtitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Title
+         */
+        "onClickDoworkTitle"?: (event: CustomEvent<any>) => void;
+        "pathToAssets"?: string;
+        /**
+          * Массив для Dowork
+         */
+        "payload"?: any;
+        /**
+          * Интерфейс для Dowork
+         */
+        "sectionSecond"?: SSectionSecondItems[];
+    }
+    interface CntFlexyViewViskhanSbankDowork1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента collaboration
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankEstimates {
+        /**
+          * Клик по Button
+         */
+        "onClickEstimatesButton"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Image
+         */
+        "onClickEstimatesImage"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Subtext
+         */
+        "onClickEstimatesSubtext"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Text
+         */
+        "onClickEstimatesText"?: (event: CustomEvent<any>) => void;
+        /**
+          * Массив для Estimates
+         */
+        "payload"?: any;
+        /**
+          * Интерфейс для Estimates
+         */
+        "sectionFirst"?: SSectionFirstItems[];
+    }
+    interface CntFlexyViewViskhanSbankEstimates1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента estimates
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankFooter {
+        /**
+          * Массив для Footer
+         */
+        "categories"?: any;
         /**
           * Интерфейс для Footer
          */
         "footer"?: SFooterItems[];
-        /**
-          * Массив для Footer
-         */
-        "forFooter"?: any;
         /**
           * Клик по FooterCopyright
          */
@@ -253,11 +521,18 @@ declare namespace LocalJSX {
          */
         "onClickFooterIn"?: (event: CustomEvent<any>) => void;
     }
-    interface SHeader {
+    interface CntFlexyViewViskhanSbankFooter1_01 {
+        /**
+          * Данные компонента footer
+         */
+        "categories"?: any;
+        "pathToAssets"?: string;
+    }
+    interface CntFlexyViewViskhanSbankHeader {
         /**
           * Массив для Header
          */
-        "forHeader"?: any;
+        "categories"?: any;
         /**
           * Интерфейс для Header
          */
@@ -287,15 +562,18 @@ declare namespace LocalJSX {
          */
         "onClickHeaderSignIn"?: (event: CustomEvent<any>) => void;
     }
-    interface SReview {
+    interface CntFlexyViewViskhanSbankHeader1_01 {
+        /**
+          * Данные компонента header
+         */
+        "categories"?: any;
+        "pathToAssets"?: string;
+    }
+    interface CntFlexyViewViskhanSbankReview {
         /**
           * Интерфейс для SReviewItems
          */
         "Review"?: SReviewItems[];
-        /**
-          * Массив для Review
-         */
-        "forReview"?: any;
         /**
           * Клик по Image
          */
@@ -308,117 +586,23 @@ declare namespace LocalJSX {
           * Клик по Subtitle
          */
         "onClickReviewSubtitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Данные компонента Review
+         */
+        "payload"?: any;
     }
-    interface SSectionFirst {
+    interface CntFlexyViewViskhanSbankReview1_01 {
+        "pathToAssets"?: string;
         /**
-          * Массив для SectionFirst
+          * Данные компонента Review
          */
-        "forSectionFirst"?: any;
-        /**
-          * Клик по Button
-         */
-        "onClickSectionFirstButton"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Image
-         */
-        "onClickSectionFirstImage"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Subtext
-         */
-        "onClickSectionFirstSubtext"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Text
-         */
-        "onClickSectionFirstText"?: (event: CustomEvent<any>) => void;
-        /**
-          * Интерфейс для SectionFirst
-         */
-        "sectionFirst"?: SSectionFirstItems[];
+        "payload"?: any;
     }
-    interface SSectionFourth {
-        /**
-          * Массив для SectionFourth
-         */
-        "forSectionFourth"?: any;
-        /**
-          * Клик по SectionFourthButton
-         */
-        "onClickSectionFourthButton"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по SectionFourthImage
-         */
-        "onClickSectionFourthImage"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по SectionFourthText
-         */
-        "onClickSectionFourthText"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по SectionFourthTitle
-         */
-        "onClickSectionFourthTitle"?: (event: CustomEvent<any>) => void;
-        /**
-          * Интерфейс для SectionFourth
-         */
-        "sectionFourth"?: SSectionFourthItems[];
-    }
-    interface SSectionSecond {
-        /**
-          * Массив для SectionSecond
-         */
-        "forSectionSecond"?: any;
-        /**
-          * Клик по MyBlock
-         */
-        "onClickSectionSecondMyBlock"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Subtitle
-         */
-        "onClickSectionSecondSubtitle"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Title
-         */
-        "onClickSectionSecondTitle"?: (event: CustomEvent<any>) => void;
-        /**
-          * Интерфейс для SectionSecond
-         */
-        "sectionSecond"?: SSectionSecondItems[];
-    }
-    interface SSectionThird {
-        /**
-          * Клик по SectionThird
-         */
-        "forSectionThird"?: any;
-        /**
-          * Клик по Image
-         */
-        "onClickSectionThirdImage"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Subtext
-         */
-        "onClickSectionThirdSubtext"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Subtitle
-         */
-        "onClickSectionThirdSubtitle"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Text
-         */
-        "onClickSectionThirdText"?: (event: CustomEvent<any>) => void;
-        /**
-          * Клик по Title
-         */
-        "onClickSectionThirdTitle"?: (event: CustomEvent<any>) => void;
-        /**
-          * Интерфейс для SectionThird
-         */
-        "sectionThird"?: SSectionThirdItems[];
-    }
-    interface SStaffing {
+    interface CntFlexyViewViskhanSbankStaffing {
         /**
           * Интерфейс для Staffing
          */
         "Staffing"?: SStaffingItems[];
-        "forStaffing"?: any;
         /**
           * Клик по Image
          */
@@ -431,13 +615,60 @@ declare namespace LocalJSX {
           * Клик по Subtitle
          */
         "onClickStaffingSubtitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Данные компонента Staffing
+         */
+        "payload"?: any;
     }
-    interface SSummary {
+    interface CntFlexyViewViskhanSbankStaffing1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента Staffing
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankStructure {
+        /**
+          * Клик по Image
+         */
+        "onClickStructureImage"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Subtext
+         */
+        "onClickStructureSubtext"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Subtitle
+         */
+        "onClickStructureSubtitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Text
+         */
+        "onClickStructureText"?: (event: CustomEvent<any>) => void;
+        /**
+          * Клик по Title
+         */
+        "onClickStructureTitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Массив для Structure
+         */
+        "payload"?: any;
+        /**
+          * Интерфейс для Structure
+         */
+        "sectionThird"?: SSectionThirdItems[];
+    }
+    interface CntFlexyViewViskhanSbankStructure1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента collaboration
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankSummary {
         /**
           * Интерфейс для Summary
          */
         "Summary"?: SSummaryItems[];
-        "forSummary"?: any;
         /**
           * Клик по Image
          */
@@ -450,16 +681,23 @@ declare namespace LocalJSX {
           * Клик по Subtitle
          */
         "onClickSummarySubtitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Данные компонента Summary
+         */
+        "payload"?: any;
     }
-    interface STimeline {
+    interface CntFlexyViewViskhanSbankSummary1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента Summary
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankTimeline {
         /**
           * Интерфейс для Timeline
          */
         "Timeline"?: STimelineItems[];
-        /**
-          * Клик по Timeline
-         */
-        "forTimeline"?: any;
         /**
           * Клик по Image
          */
@@ -472,38 +710,73 @@ declare namespace LocalJSX {
           * Клик по Subtitle
          */
         "onClickTimelineSubtitle"?: (event: CustomEvent<any>) => void;
+        /**
+          * Данные компонента Timeline
+         */
+        "payload"?: any;
+    }
+    interface CntFlexyViewViskhanSbankTimeline1_01 {
+        "pathToAssets"?: string;
+        /**
+          * Данные компонента Timeline
+         */
+        "payload"?: any;
+    }
+    interface MyComponent {
     }
     interface IntrinsicElements {
+        "cnt-flexy-view-viskhan-sbank-about": CntFlexyViewViskhanSbankAbout;
+        "cnt-flexy-view-viskhan-sbank-about-1_01": CntFlexyViewViskhanSbankAbout1_01;
+        "cnt-flexy-view-viskhan-sbank-collaboration": CntFlexyViewViskhanSbankCollaboration;
+        "cnt-flexy-view-viskhan-sbank-collaboration-1_01": CntFlexyViewViskhanSbankCollaboration1_01;
+        "cnt-flexy-view-viskhan-sbank-dowork": CntFlexyViewViskhanSbankDowork;
+        "cnt-flexy-view-viskhan-sbank-dowork-1_01": CntFlexyViewViskhanSbankDowork1_01;
+        "cnt-flexy-view-viskhan-sbank-estimates": CntFlexyViewViskhanSbankEstimates;
+        "cnt-flexy-view-viskhan-sbank-estimates-1_01": CntFlexyViewViskhanSbankEstimates1_01;
+        "cnt-flexy-view-viskhan-sbank-footer": CntFlexyViewViskhanSbankFooter;
+        "cnt-flexy-view-viskhan-sbank-footer-1_01": CntFlexyViewViskhanSbankFooter1_01;
+        "cnt-flexy-view-viskhan-sbank-header": CntFlexyViewViskhanSbankHeader;
+        "cnt-flexy-view-viskhan-sbank-header-1_01": CntFlexyViewViskhanSbankHeader1_01;
+        "cnt-flexy-view-viskhan-sbank-review": CntFlexyViewViskhanSbankReview;
+        "cnt-flexy-view-viskhan-sbank-review-1_01": CntFlexyViewViskhanSbankReview1_01;
+        "cnt-flexy-view-viskhan-sbank-staffing": CntFlexyViewViskhanSbankStaffing;
+        "cnt-flexy-view-viskhan-sbank-staffing-1_01": CntFlexyViewViskhanSbankStaffing1_01;
+        "cnt-flexy-view-viskhan-sbank-structure": CntFlexyViewViskhanSbankStructure;
+        "cnt-flexy-view-viskhan-sbank-structure-1_01": CntFlexyViewViskhanSbankStructure1_01;
+        "cnt-flexy-view-viskhan-sbank-summary": CntFlexyViewViskhanSbankSummary;
+        "cnt-flexy-view-viskhan-sbank-summary-1_01": CntFlexyViewViskhanSbankSummary1_01;
+        "cnt-flexy-view-viskhan-sbank-timeline": CntFlexyViewViskhanSbankTimeline;
+        "cnt-flexy-view-viskhan-sbank-timeline-1_01": CntFlexyViewViskhanSbankTimeline1_01;
         "my-component": MyComponent;
-        "s-collaboration": SCollaboration;
-        "s-footer": SFooter;
-        "s-header": SHeader;
-        "s-review": SReview;
-        "s-section-first": SSectionFirst;
-        "s-section-fourth": SSectionFourth;
-        "s-section-second": SSectionSecond;
-        "s-section-third": SSectionThird;
-        "s-staffing": SStaffing;
-        "s-summary": SSummary;
-        "s-timeline": STimeline;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "cnt-flexy-view-viskhan-sbank-about": LocalJSX.CntFlexyViewViskhanSbankAbout & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankAboutElement>;
+            "cnt-flexy-view-viskhan-sbank-about-1_01": LocalJSX.CntFlexyViewViskhanSbankAbout1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankAbout1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-collaboration": LocalJSX.CntFlexyViewViskhanSbankCollaboration & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankCollaborationElement>;
+            "cnt-flexy-view-viskhan-sbank-collaboration-1_01": LocalJSX.CntFlexyViewViskhanSbankCollaboration1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankCollaboration1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-dowork": LocalJSX.CntFlexyViewViskhanSbankDowork & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankDoworkElement>;
+            "cnt-flexy-view-viskhan-sbank-dowork-1_01": LocalJSX.CntFlexyViewViskhanSbankDowork1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankDowork1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-estimates": LocalJSX.CntFlexyViewViskhanSbankEstimates & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankEstimatesElement>;
+            "cnt-flexy-view-viskhan-sbank-estimates-1_01": LocalJSX.CntFlexyViewViskhanSbankEstimates1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankEstimates1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-footer": LocalJSX.CntFlexyViewViskhanSbankFooter & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankFooterElement>;
+            "cnt-flexy-view-viskhan-sbank-footer-1_01": LocalJSX.CntFlexyViewViskhanSbankFooter1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankFooter1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-header": LocalJSX.CntFlexyViewViskhanSbankHeader & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankHeaderElement>;
+            "cnt-flexy-view-viskhan-sbank-header-1_01": LocalJSX.CntFlexyViewViskhanSbankHeader1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankHeader1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-review": LocalJSX.CntFlexyViewViskhanSbankReview & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankReviewElement>;
+            "cnt-flexy-view-viskhan-sbank-review-1_01": LocalJSX.CntFlexyViewViskhanSbankReview1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankReview1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-staffing": LocalJSX.CntFlexyViewViskhanSbankStaffing & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankStaffingElement>;
+            "cnt-flexy-view-viskhan-sbank-staffing-1_01": LocalJSX.CntFlexyViewViskhanSbankStaffing1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankStaffing1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-structure": LocalJSX.CntFlexyViewViskhanSbankStructure & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankStructureElement>;
+            "cnt-flexy-view-viskhan-sbank-structure-1_01": LocalJSX.CntFlexyViewViskhanSbankStructure1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankStructure1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-summary": LocalJSX.CntFlexyViewViskhanSbankSummary & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankSummaryElement>;
+            "cnt-flexy-view-viskhan-sbank-summary-1_01": LocalJSX.CntFlexyViewViskhanSbankSummary1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankSummary1_01Element>;
+            "cnt-flexy-view-viskhan-sbank-timeline": LocalJSX.CntFlexyViewViskhanSbankTimeline & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankTimelineElement>;
+            "cnt-flexy-view-viskhan-sbank-timeline-1_01": LocalJSX.CntFlexyViewViskhanSbankTimeline1_01 & JSXBase.HTMLAttributes<HTMLCntFlexyViewViskhanSbankTimeline1_01Element>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
-            "s-collaboration": LocalJSX.SCollaboration & JSXBase.HTMLAttributes<HTMLSCollaborationElement>;
-            "s-footer": LocalJSX.SFooter & JSXBase.HTMLAttributes<HTMLSFooterElement>;
-            "s-header": LocalJSX.SHeader & JSXBase.HTMLAttributes<HTMLSHeaderElement>;
-            "s-review": LocalJSX.SReview & JSXBase.HTMLAttributes<HTMLSReviewElement>;
-            "s-section-first": LocalJSX.SSectionFirst & JSXBase.HTMLAttributes<HTMLSSectionFirstElement>;
-            "s-section-fourth": LocalJSX.SSectionFourth & JSXBase.HTMLAttributes<HTMLSSectionFourthElement>;
-            "s-section-second": LocalJSX.SSectionSecond & JSXBase.HTMLAttributes<HTMLSSectionSecondElement>;
-            "s-section-third": LocalJSX.SSectionThird & JSXBase.HTMLAttributes<HTMLSSectionThirdElement>;
-            "s-staffing": LocalJSX.SStaffing & JSXBase.HTMLAttributes<HTMLSStaffingElement>;
-            "s-summary": LocalJSX.SSummary & JSXBase.HTMLAttributes<HTMLSSummaryElement>;
-            "s-timeline": LocalJSX.STimeline & JSXBase.HTMLAttributes<HTMLSTimelineElement>;
         }
     }
 }

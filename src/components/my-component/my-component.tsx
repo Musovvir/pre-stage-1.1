@@ -21,85 +21,61 @@ import {
 })
 export class MyComponent {
   render() {
-    const clicker = (item) => {
-      console.log(item);
-    };
     return (
       <div>
-        <s-header
-          forHeader={forHeader}
-          onClickHeaderLogo={(item) => clicker(item)}
-          onClickHeaderHome={(item) => clicker(item)}
-          onClickHeaderFeatures={(item) => clicker(item)}
-          onClickHeaderHowItWorks={(item) => clicker(item)}
-          onClickHeaderAboutUs={(item) => clicker(item)}
-          onClickHeaderSignIn={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-header-1_01
+          categories={forHeader}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-section-first
-          forSectionFirst={forSectionFirst}
-          onClickSectionFirstText={(item) => clicker(item)}
-          onClickSectionFirstSubtext={(item) => clicker(item)}
-          onClickSectionFirstButton={(item) => clicker(item)}
-          onClickSectionFirstImage={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-estimates-1_01
+          payload={forSectionFirst}
+          pathToAssets={this.testPathToAssets}
+
         />
-        <s-section-second
-          forSectionSecond={forSectionSecond}
-          onClickSectionSecondTitle={(item) => clicker(item)}
-          onClickSectionSecondSubtitle={(item) => clicker(item)}
-          onClickSectionSecondMyBlock={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-dowork-1_01
+          payload={forSectionSecond}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-section-third
-          forSectionThird={forSectionThird}
-          onClickSectionThirdImage={(item) => clicker(item)}
-          onClickSectionThirdSubtitle={(item) => clicker(item)}
-          onClickSectionThirdSubtext={(item) => clicker(item)}
-          onClickSectionThirdTitle={(item) => clicker(item)}
-          onClickSectionThirdText={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-structure-1_01
+          payload={forSectionThird}
+          pathToAssets={this.testPathToAssets}
+
         />
-        <s-collaboration
-          forCollaboration={forCollaboration}
-          onClickCollaborationImage={(item) => clicker(item)}
-          onClickCollaborationSubtitle={(item) => clicker(item)}
-          onClickCollaborationSubtext={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-collaboration-1_01
+          payload={forCollaboration}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-review
-          forReview={forReview}
-          onClickReviewImage={(item) => clicker(item)}
-          onClickReviewSubtitle={(item) => clicker(item)}
-          onClickReviewSubtext={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-review-1_01
+          payload={forReview}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-staffing
-          forStaffing={forStaffing}
-          onClickStaffingImage={(item) => clicker(item)}
-          onClickStaffingSubtitle={(item) => clicker(item)}
-          onClickStaffingSubtext={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-staffing-1_01
+          payload={forStaffing}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-timeline
-          forTimeline={forTimeline}
-          onClickTimelineImage={(item) => clicker(item)}
-          onClickTimelineSubtitle={(item) => clicker(item)}
-          onClickTimelineSubtext={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-timeline-1_01
+          payload={forTimeline}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-summary
-          forSummary={forSummary}
-          onClickSummaryImage={(item) => clicker(item)}
-          onClickSummarySubtitle={(item) => clicker(item)}
-          onClickSummarySubtext={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-summary-1_01
+          payload={forSummary}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-section-fourth
-          forSectionFourth={forSectionFourth}
-          onClickSectionFourthTitle={(item) => clicker(item)}
-          onClickSectionFourthImage={(item) => clicker(item)}
-          onClickSectionFourthText={(item) => clicker(item)}
-          onClickSectionFourthButton={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-about-1_01
+          payload={forSectionFourth}
+          pathToAssets={this.testPathToAssets}
         />
-        <s-footer
-          forFooter={forFooter}
-          onClickFooterFacebook={(item) => clicker(item)}
-          onClickFooterIn={(item) => clicker(item)}
-          onClickFooterCopyright={(item) => clicker(item)}
+        <cnt-flexy-view-viskhan-sbank-footer-1_01
+          categories={forFooter}
+          pathToAssets={this.testPathToAssets}
         />
       </div>
     );
   }
+
+  /**
+   * временный префикс ссылки для картинок
+   */
+  public testPathToAssets =
+    "http://cdn.ramman.net/flexy-view/viskhan/sbank/1.01/assets/";
 }

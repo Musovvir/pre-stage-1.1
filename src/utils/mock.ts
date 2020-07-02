@@ -1,7 +1,7 @@
 export const forHeader = [
   {
     id: 1,
-    url: "https://dowork.ai/images/logo.png",
+    url: "logo.png",
     item_1: "Home",
     item_2: "Features",
     item_3: "How It Works",
@@ -13,7 +13,7 @@ export const forHeader = [
 export const forSectionFirst = [
   {
     id: 1,
-    url: "https://dowork.ai/images/undraw_investing_7u74.svg",
+    url: "undraw_investing.svg",
     text: "Make Your Estimates More Accurate",
     subtext: "A sound estimate starts with a work breakdown structure (WBS).",
     button: "Get Started",
@@ -64,7 +64,7 @@ export const forSectionThird = [
       "Estimation starts with proper work breakdown. Dowork helps you easily breakdown your work" +
       'into smaller pieces. Then you can start your estimation using "Three point estimation" approach and' +
       'verify with "Standard Deviation".',
-    url: "https://dowork.ai/images/screen_wbs.jpg",
+    url: "screen_wbs.jpg",
   },
 ];
 
@@ -75,7 +75,7 @@ export const forCollaboration = [
     subtext:
       "It is crucial to avoid estimation by single person. Invite your colleagues," +
       "brainstorm and create the work breakdown structure together.",
-    url: "https://dowork.ai/images/screen_share.jpg",
+    url: "screen_share.jpg",
   },
 ];
 
@@ -87,7 +87,7 @@ export const forReview = [
       "While the work breakdown structure is created together, estimations are put individually." +
       "When everybody submits their estimation team can see the differences in green or red correspondingly if" +
       "differences are low or high. Project owner resolves issues by selecting individual estimation for each task.",
-    url: "https://dowork.ai/images/screen_review.jpg",
+    url: "screen_review.jpg",
   },
 ];
 
@@ -99,7 +99,7 @@ export const forStaffing = [
       "An accurate work breakdown structure is not enough for proper estimation. It is always important" +
       "to consider the uncertainty level of scope knowledge. Besides, it is crucial to consider overhead and other" +
       "disciplines buffering.",
-    url: "https://dowork.ai/images/screen_staffing.jpg",
+    url: "screen_staffing.jpg",
   },
 ];
 
@@ -111,7 +111,7 @@ export const forTimeline = [
       "Organize your project timeline using Gantt chart. Here you can distribute your tasks between" +
       "disciplines, assign or change the start date by dragging on Gantt chart, or just ask Dowork.ai" +
       "to automatically order tasks based on the start date you select.",
-    url: "https://dowork.ai/images/screen_timeline.jpg",
+    url: "screen_timeline.jpg",
   },
 ];
 
@@ -123,14 +123,14 @@ export const forSummary = [
       "Now, out of all the numbers you have calculated you need a few important ones which show how" +
       "many days you need to deliver the project and how much it will cost." +
       "Happy estimating and good luck with your projects!",
-    url: "https://dowork.ai/images/screen_summary.jpg",
+    url: "screen_summary.jpg",
   },
 ];
 
 export const forSectionFourth = [
   {
     titl: "About Us",
-    url: "https://dowork.ai/images/mushegh.jpg",
+    url: "mushegh.jpg",
     text:
       "Hello, my name is Mushegh, I'm the CEO and Founder of Dowork. I have been in the Software" +
       "Development field for the last 15 years. During these years the estimation has been always a challenge" +
@@ -146,8 +146,6 @@ export const forSectionFourth = [
 export const forFooter = [
   {
     facebook: "fa fa-facebook",
-    in: "fa fa-linkedin",
-    copyright:
-      "Copyright © 2020 All rights reserved | This template is made with by Colorlib",
+    in: "fa fa-linkedin"
   },
 ];
